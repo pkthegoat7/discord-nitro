@@ -1,0 +1,90 @@
+.c-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  background-image: radial-gradient(ellipse 90% 55% at 50% -20%, rgba(88, 101, 242, 0.35), transparent);
+}
+
+.c-page h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.c-page p {
+  color: #dbdee1;
+  font-size: 17px;
+  margin-bottom: 14px;
+}
+
+.c-sub {
+  color: #949ba4 !important;
+}
+
+.c-extra {
+  color: #c9cdfb !important;
+}
+
+.c-soon {
+  margin-top: 22px;
+  font-size: 13px;
+  color: #5d6066;
+}
+
+.check {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #3ba55c;
+  color: #fff;
+  font-size: 42px;
+  line-height: 80px;
+  margin-bottom: 26px;
+  box-shadow: 0 10px 30px rgba(59, 165, 92, 0.4);
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-bottom: 26px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border: 4px solid rgba(88, 101, 242, 0.6);
+}
+
+.c-spin {
+  width: 36px;
+  height: 36px;
+  border: 4px solid #5865f2;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: crot 1s linear infinite;
+  margin-bottom: 18px;
+}
+
+@keyframes crot {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  display: inline-block;
+  background: #5865f2;
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 14px 40px;
+  border-radius: 10px;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #4752c4;
+}

@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  background: #1e1f22;
+  color: #fff;
+  font-family: "gg sans", "Noto Sans", system-ui, -apple-system, sans-serif;
+}
+
+a {
+  color: inherit;
+}

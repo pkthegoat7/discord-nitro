@@ -1,0 +1,131 @@
+.page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(ellipse 90% 55% at 50% -20%, rgba(88, 101, 242, 0.4), transparent);
+}
+
+.topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-nitro {
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 15px;
+  background: linear-gradient(90deg, #eb459e, #5865f2, #3ba55c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero {
+  text-align: center;
+  padding: 24px;
+  max-width: 560px;
+}
+
+.logo-box {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 28px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #5865f2, #eb459e);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 40px rgba(88, 101, 242, 0.45);
+}
+
+.hero h1 {
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.grad {
+  background: linear-gradient(90deg, #eb459e, #5865f2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.prize {
+  margin: 18px 0 8px;
+  font-size: 17px;
+  color: #dbdee1;
+}
+
+.queue {
+  margin: 10px 0 22px;
+  font-size: 15px;
+  color: #949ba4;
+}
+
+.queue b {
+  color: #fff;
+}
+
+.timer {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 8px;
+  background: rgba(88, 101, 242, 0.15);
+  border: 1px solid rgba(88, 101, 242, 0.4);
+  color: #c9cdfb;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 26px;
+}
+
+.btn {
+  display: inline-block;
+  background: #5865f2;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 46px;
+  border-radius: 10px;
+  transition: transform 0.1s ease, background 0.2s;
+  box-shadow: 0 8px 24px rgba(88, 101, 242, 0.4);
+}
+
+.btn:hover {
+  background: #4752c4;
+  transform: translateY(-2px);
+}
+
+.login-note {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #949ba4;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 18px;
+  text-align: center;
+  font-size: 12px;
+  color: #5d6066;
+  line-height: 1.6;
+}
